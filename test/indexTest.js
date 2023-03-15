@@ -13,7 +13,7 @@ describe('index.js', function() {
     });
   });
 
-  describe('distanceFromHqInFeet()', function() {
+  describe('()', function() {
     it('returns a distance in feet', function() {
       expect(distanceFromHqInFeet(43)).to.equal(264);
     });
